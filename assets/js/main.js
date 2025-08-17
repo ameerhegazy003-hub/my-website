@@ -1,3 +1,16 @@
+//  responsive navigation bar
+let menuList = document.getElementById("menuList");
+ 
+menuList.style.maxHeight = "0px";
+function toggleMenu() {
+    if (menuList.style.maxHeight == "0px") {
+        menuList.style.maxHeight = "300px";
+    } else {
+        menuList.style.maxHeight = "0px";
+    }
+}
+    
+
 // Automatic testimonial slider with animation
 document.addEventListener('DOMContentLoaded', function () {
     const testimonialContent = document.querySelector('.testimonial-content');
