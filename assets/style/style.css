@@ -41,6 +41,14 @@ nav{
     position: fixed; 
     z-index: 2;
 }
+.btn-area a{
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #d3540000;
+    border-radius: 5px;
+    font-weight: 700;
+}
 .list-area li a:hover{
     background-color: #2f4b67;
     padding: 5px;
@@ -115,6 +123,14 @@ button:hover{
     font-size: 20px;
     width: 80%;
     margin-bottom: 30px;
+}
+.hero-content a{
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #d3540000;
+    border-radius: 5px;
+    font-weight: 700;
 }
 
 /* about us */
@@ -193,12 +209,23 @@ button:hover{
     align-items: center;  
     gap: 10px;
 }
+.nav-menu a{
+    width: 20%;
+    border: 1px solid #D35400;
+    border-radius: 5px;
+    padding: 5px;
+}
 
 .nav-menu a:hover{
     background-color: #d35400;
     color: #FFFFFF;
     border-radius: 5px;
     
+}
+.all-menu{
+    background-color: #D35400;
+    color: #FFFFFF;
+    border-radius: 5px;
 }
 .nav-menu li:valid{
     background-color: #d35400;
@@ -484,6 +511,9 @@ footer{
     justify-content: space-around;
     gap: 20px;
 }
+.footer-list a{
+    margin: 0 2px;
+}
 .footer-content ul{
     display: flex;
     flex-direction: column;
@@ -549,10 +579,15 @@ footer{
     .Menu{
         gap: 40px;
     }
+    .nav-menu {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
     .nav-menu ul{
         width: 100%;
-        padding: 10px;
-        gap: 5px;
+        gap: 10px;
+        text-align:center;
         justify-content: center;
 
         
@@ -560,12 +595,13 @@ footer{
     }
     .nav-menu a{
         font-size: 12px;
+
     }
     .nav-menu li{
-        width: 25%;
+        width: fit-content;
         height: auto;
-        padding: 10px;
         text-align: center;
+        padding: 5px;
     }
 
     
@@ -640,12 +676,18 @@ footer{
     .footer-content {
         width: 100%;
         padding: 20px;
-        align-items: center;
-    
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-content p{
+        font-size: 12px;
+        text-align: center;
     }
 
     .footer-list a{
-        font-size: 14px;
+        font-size: 10px;
+        text-align: center;
+        
     }
     
 
